@@ -1,0 +1,13 @@
+<div data-controller="books">
+  <h1 class="text-3xl font-bold">Add New Book</h1>
+  <%= turbo_frame_tag "modal" do %>
+    <div>
+      <%= form_with model: @book do |f| %>
+        <label class="floating-label">
+          <span>Book title</span>
+          <%= f.text_field :title, type: :text, placeholder: "Si kancil", class: "input input-md" %>
+        </label>
+      <% end %>
+    </div>
+  <% end %>
+</div>

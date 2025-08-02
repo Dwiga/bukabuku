@@ -1,0 +1,10 @@
+<div data-controller="books">
+  <h1 class="text-3xl font-bold">
+    Books
+    <%= link_to "New book",
+        new_book_path,
+        class: "btn btn-primary",
+        data: { turbo_frame: "modal", action: "click->books#modal" }
+    %>
+  </h1>
+</div>
