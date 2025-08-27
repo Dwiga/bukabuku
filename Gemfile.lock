@@ -209,7 +209,7 @@ GEM
       activesupport (>= 5.0.0)
       minitest
       nokogiri (>= 1.6)
-    rails-graphql (1.0.5)
+    rails-graphql (1.0.6)
       rails (>= 6.0)
     rails-html-sanitizer (1.6.2)
       loofah (~> 2.21)
