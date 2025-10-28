@@ -65,6 +65,6 @@ gem "rails-graphql", "~> 1.0"
 
 gem "tailwindcss-ruby", "~> 4.1"
 
-gem "tailwindcss-rails", "~> 4.3"
+gem "tailwindcss-rails", "~> 4.4"
 
 gem "foreman", "~> 0.90.0"
